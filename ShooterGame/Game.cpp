@@ -50,7 +50,7 @@ std::vector<std::string> Game::LoadAssetList(const std::string& fname)
 bool Game::initialize(int w, int h)
 {
     // set screen clearing color
-    glClearColor(0.2f, 0.2f, 0.2f, 1.0f);
+    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 
     glEnable(GL_DEPTH_TEST);    // !!!!!!111!!1!!!11!^&#(!@^(!!!!!!
 
@@ -111,7 +111,7 @@ void Game::draw()
         // draw ground plane
         glUseProgram(mUColorProgram);
         glsh::SetShaderUniform("u_ModelViewMatrix", viewMatrix);
-        glsh::SetShaderUniform("u_Color", glm::vec4(0.5f, 0.5f, 0.5f, 1.0f));
+        glsh::SetShaderUniform("u_Color", glm::vec4(0.54f, 0.8f, 0.9f, 1.0f));
         mPlane->draw();
 
         // draw world axes
@@ -121,6 +121,8 @@ void Game::draw()
         mWorldAxes->draw();
         glEnable(GL_DEPTH_TEST);        // restore depth test
     }
+
+
 
     //
     // draw the active mesh
