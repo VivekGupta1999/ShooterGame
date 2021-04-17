@@ -1,0 +1,46 @@
+# basic shapes (triangulated, with uvs)
+basic/quad-vpnt-tris.obj
+basic/cube-vpnt-tris.obj
+basic/cylinder-vpnt-tris.obj
+basic/sphere-vpnt-tris.obj
+
+# basic shapes (triangulated, no uvs)
+#basic/quad-vpn-tris.obj
+#basic/cube-vpn-tris.obj
+#basic/cylinder-vpn-tris.obj
+#basic/sphere-vpn-tris.obj
+
+# basic shapes (not triangulated, with uvs)
+#basic/quad-vpnt.obj
+#basic/cube-vpnt.obj
+#basic/cylinder-vpnt.obj
+#basic/sphere-vpnt.obj
+
+# basic shapes (not triangulated, no uvs)
+#basic/quad-vpn.obj
+#basic/cube-vpn.obj
+#basic/cylinder-vpn.obj
+#basic/sphere-vpn.obj
+
+# basic shapes
+#quad-vpnt.obj
+#cube-vpnt.obj
+#cylinder-vpnt.obj
+#sphere-vpnt.obj
+
+# some prefabs from Blender
+#gem-vpn.obj
+#step-pyramid-vpn.obj
+#torus-vpn.obj
+#teapot-vpn.obj
+#suzanne-vpn.obj
+
+# the Stanford bunny (source: http://www.prinmath.com/csci5229/OBJ/index.html)
+#bunny.obj
+
+# houses and structures (multiple sources)
+#old_house.obj
+#Manor.obj
+#Greenhouse.obj
+#bank.obj
+#cafe.obj
